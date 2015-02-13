@@ -1,7 +1,6 @@
 usage
 ===
-1. 把所要的章节，复制到java/test/目录下，运行cleanup.py 去清除标签
-2. 运行make2.py生成章节信息
+使用[EManual-CLI](https://github.com/EManual/EManual-CLI)
 
 record
 ===
