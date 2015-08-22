@@ -1,20 +1,20 @@
-* 基本数据类型(Primitive Data Type)：8种。
-1) 整型 
+基本数据类型(Primitive Data Type)：8种。
+1) 整型
 ```java  
-byte     1B	 8位     -128到127 
-short    2B	 16位    -2^15到(2^15)-1 
-int      4B	 32位    -2^31到(2^31)-1 
-long     8B	 64位    -2^63到(2^63)-1 
+byte     1B	 8位     -128到127
+short    2B	 16位    -2^15到(2^15)-1
+int      4B	 32位    -2^31到(2^31)-1
+long     8B	 64位    -2^63到(2^63)-1
 ```
-2) 浮点类型 
+2) 浮点类型
 ```java  
-float      4B	  32位       
-double     8B	  64位 
+float      4B	  32位
+double     8B	  64位
 ```
-3) 字符类型 
+3) 字符类型
 ```java  
-char    2B	16位 
-```	
+char    2B	16位
+```
 4) 布尔型 	1B
 ```java  
 boolean    false/true
@@ -31,7 +31,7 @@ byte->short->int->long->float->double
 4、黙认浮点类型为double，float数据类型有一个后缀为"f"或"F"。
 5、long类型有一个后缀，为"l"或者"L"。
 * 引用数据类型(Reference Type)：
-类、接口、数组
+#### 类、接口、数组
 引用类型 变量名 = new 引用类型名(参数);		//new后面一般跟的都是类的构造器
 成员：写在类体括号里面的
 自动类型提升：
@@ -48,5 +48,3 @@ a和b中有float，结果就是float。
 a和b中有long，结果就是long。
 除此之外，结果都是int。
 把高字节转成低字节，需要作强制类型转换：byte c =(byte)a + b;
-下面是数据类型图：
-  
